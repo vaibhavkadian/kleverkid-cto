@@ -1,0 +1,7 @@
+<?php
+function randomNum($name)
+{
+    return $name . " " . (mt_rand(6,15));
+}
+echo randomNum("Rahul");   // outputs 'Name GeneratedNumber'.
+?>
